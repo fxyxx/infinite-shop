@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.body {
+	height: 100vh;
+}
+
+.product-container {
+	/* z-index: 1; */
+	margin-top: 3vmax;
+	height: 400px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	gap: 3vmax;
+}
+
+.item-left {
+	z-index: 1;
+	width: 27vmax;
+	height: 29vmax;
+	border: 0.05vmax solid white;
+	border-radius: 20px;
+	backdrop-filter: blur(12px);
+	background-color: rgba(158, 158, 158, 0.171);
+	box-shadow: 0 0 10px #115293;
+	border-radius: 15px;
+}
+
+.item-left>img {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.item-description {
+	color: white;
+	font-family: 'Russo One', sans-serif;
+}
+
+.item-description>p {
+	font-size: 0.8vmax;
+	margin: 0.3vmax 0px;
+}
+
+.item-description>h2 {
+	text-align: center;
+	font-size: 1.2vmax;
+}
+
+.item-right {
+	z-index: 1;
+}
+
+.item-name {
+	font-family: 'Russo One', sans-serif;
+	font-size: 1.5vmax;
+	color: #fff;
+	margin-bottom: .5vmax;
+}
+
+.item-box {
+	display: flex;
+	flex-direction: column;
+	backdrop-filter: blur(12px);
+	background-color: rgba(158, 158, 158, 0.171);
+	border-radius: .7vmax;
+	height: 13vmax;
+	width: 20vmax;
+	padding: 3px;
+	gap: .5vmax;
+	justify-content: center;
+	align-items: center;
+	border: 0.05vmax solid white;
+	box-shadow: 0 0 10px #115293;
+}
+
+.subscription-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(0, 0, 0);
+	border-radius: .7vmax;
+	font-family: 'Russo One', sans-serif;
+	font-size: .9vmax;
+	color: #fff;
+	height: 3.3vmax;
+	width: 18vmax;
+}
+
+.subscription-info>p {
+	margin-left: .8vmax;
+}
+
+.subscription-info>a {
+	margin-right: .7vmax;
+}
+
+
+.subscription-info button {
+	border: 0.05vmax solid #54acff;
+	background-color: #1b1b1b;
+	border-radius: .5vmax;
+	padding: 4px;
+	color: #fff;
+	width: 10vmax;
+	height: 2.2vmax;
+	transition: .1s;
+}
+
+.info-1 a:hover img {
+	opacity: 1;
+}
+
+.info-1 img {
+	position: absolute;
+	opacity: 0;
+	transition: .5s;
+	left: 22vmax;
+	bottom: 3vmax;
+	height: 13vmax;
+	width: 13vmax;
+	border: 0.15vmax solid #ffeb36;
+	border-radius: .6vmax;
+}
+
+.subscription-info button:hover {
+	background-color: rgba(158, 158, 158, 0.171);
+	box-shadow: 0 0 3px #ffeb36;
+	border: 0.05vmax solid #ffeb36;
+}
+
+
+.post-payment-info {
+	max-width: 20vmax;
+	margin: 1vmax auto;
+	font-size: .8vmax;
+	font-family: 'Russo One', sans-serif;
+	color: #fff;
+}
+
+.post-payment-link button {
+	border: 0.05vmax solid #54acff;
+	border-radius: 9px;
+	padding: 4px;
+	width: 20vmax;
+	height: 2.5vmax;
+	font-family: 'Russo One', sans-serif;
+	color: #fff;
+	font-size: 1.2vmax;
+	transition: .1s;
+}
+
+.post-payment-link button:hover {
+	background-color: rgba(158, 158, 158, 0.171);
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+.nav-bar {
+	display: flex;
+	margin: 0.1vmax auto;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+}
+
+.nav-bar2 {
+	z-index: 2;
+	display: flex;
+	margin: 20px auto;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	border: 0.05vmax solid rgb(152, 152, 152);
+	border-radius: 3vmax;
+}
+
+.main-page {
+	height: 4.5vmax;
+	width: 22vmax;
+	backdrop-filter: blur(12px);
+	background-color: rgba(158, 158, 158, 0.171);
+	border-right: 0.05vmax solid #989898;
+	border-bottom-left-radius: 3vmax;
+	border-top-left-radius: 3vmax;
+}
+
+.all-subscription {
+	height: 4.5vmax;
+	width: 28vmax;
+	backdrop-filter: blur(12px);
+	background-color: rgba(158, 158, 158, 0.171);
+}
+
+.about-us {
+	height: 4.5vmax;
+	width: 22vmax;
+	backdrop-filter: blur(12px);
+	background-color: rgba(158, 158, 158, 0.171);
+	border-left: 0.05vmax solid rgb(152, 152, 152);
+	border-bottom-right-radius: 3vmax;
+	border-top-right-radius: 3vmax;
+}
+
+.nav-bar2 a {
+	font-family: 'Russo One', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2vmax;
+	color: #fff;
+	height: inherit;
+	width: inherit;
+}
+
+.nav-background {
+	transition: 0.3s;
+}
+
+.nav-background:hover {
+	background-color: #ffffff4f;
+}
+
+.nav-bar li ul {
+	z-index: 10;
+	position: absolute;
+	display: none;
+	background-color: #494949;
+	border-bottom-right-radius: 1vmax;
+	border-bottom-left-radius: 1vmax;
+}
+
+.nav-bar li>ul li {
+	z-index: 10;
+	border: 0.05vmax solid rgb(152, 152, 152);
+	transition: .2s;
+	padding: .5vmax;
+	width: 28vmax;
+}
+
+.nav-bar li>ul li:last-child {
+	border-bottom-right-radius: 1vmax;
+	border-bottom-left-radius: 1vmax;
+}
+
+.nav-bar li:hover>ul {
+	z-index: 10;
+	display: block;
+}
+
+.nav-background ul li:hover {
+	z-index: 10;
+	background-color: #797979;
+}

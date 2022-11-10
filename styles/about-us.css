@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.content {
+	z-index: 1;
+	color: #fff;
+	margin: auto;
+	text-align: center;
+	width: 30vmax;
+	font-family: 'Russo One', sans-serif;
+}
+
+.content h2 {
+	margin-top: 2vmax;
+	font-size: 4vmax;
+	margin-bottom: 1vmax;
+}
+
+.content p:last-child {
+	margin-top: 1vmax;
+}
