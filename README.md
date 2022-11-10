@@ -1,2 +1,2 @@
 # infinite shop
->Simple shop for your product
+>Example of simple shop for your product
